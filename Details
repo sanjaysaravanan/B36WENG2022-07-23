@@ -1,0 +1,63 @@
+Recap:
+
+  Callback
+  visualize callback
+
+  sync & async operation
+
+  Callback Hell
+
+  Promise: Object representation eventual completion of async operation
+    states -> pending (started/initial), rejected ( fail to complete ), fullfilled ( success/desired output ).
+    Accessing Values of Promise:
+    Promise Chaining
+  
+Topics:
+
+  Promise all()
+    combining multiple promise into a single promise resolve give the accumulates fullfill results of all the promises reject gives on which failed
+
+  API ---> Application Program Interface
+    what is REST API -> Representational State Transfer API
+      Communication between servers
+
+  JSON - Javascript Object Notation
+
+  fetch
+
+    fetch API ---> Fetch is used to read data / or do an http operation
+      which return a promise with response containing the readable stream
+      Handle by .then & .catch
+
+  disadvantage of promise:
+    Too much of Chaining leads to uncertain
+
+  async and await:
+    async & await --> 
+      1. async keyword is used before a function which does asynchronous operations.
+      2. which makes the functions to wait for asynchronous action until there resoltion/rejection using await
+
+  1. Publics APIs
+    Look for You requirement & Choose a type of API
+    Use APIs which has HTTPS & CORS enabled
+    If Signing is fine Go for Auth, HTTPS, CORS enabled
+
+    Read the Documentation Test the API before choosing it
+
+  2. Implementation of DOM manipulation examples
+    1. Email Verify examples
+    2. Get City weather examples
+
+  3. Design Ideas, https://spicey-hut.netlify.app/recipe.html, https://shoppingcart-spicyhut.netlify.app/#header
+
+  intro to public APIs ---> Choose public APIs based on the API_key, Https, Cors
+
+  https://api.openweathermap.org/data/2.5/weather?q=Chennai&appid=991f626650507e6605c2ca33f8edc191
+
+  SASS/SCSS/LESS
+
+
+
+  
+
+
